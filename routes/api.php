@@ -13,3 +13,7 @@ use Illuminate\Http\Request;
 */
 
 Route::resource('people', 'PeopleController');
+
+Route::resource('activity', 'ActivityController');
+
+Route::resource('files-one', 'FilesOne');
