@@ -31,7 +31,7 @@ class PracFileUpload extends Component {
             formData
             // , {headers: {'scheme-type': 'http'}}
         ).then(res => {
-                console.log('__> zzz The response was: ',res);
+                console.log('_> The response was: ', res);
                 let debug2 = 1;
             }
         ).catch(e => {
